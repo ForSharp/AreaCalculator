@@ -1,4 +1,4 @@
-#SELECT products.name as product_name, categories.name as category_name
+# SELECT products.name as product_name, categories.name as category_name
 FROM products
 LEFT JOIN categories
 ON products.category_id = categories.id
